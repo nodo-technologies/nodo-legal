@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentos legales — Nodo</title>
+<meta name="description" content="Documentos legales de NODO TECHNOLOGIES S.A.S.">
+<style>
+  :root {
+    --fondo: #ffffff; --texto: #1a1a1a; --suave: #5c5c5c;
+    --linea: #e3e3e0; --acento: #0f5c4a; --caja: #f6f6f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fondo: #171717; --texto: #ececec; --suave: #a3a3a3;
+      --linea: #2f2f2f; --acento: #6ec3a8; --caja: #1f1f1f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fondo: #171717; --texto: #ececec; --suave: #a3a3a3;
+    --linea: #2f2f2f; --acento: #6ec3a8; --caja: #1f1f1f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 16px 5rem;
+    background: var(--fondo); color: var(--texto);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px; line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 32rem; margin: 0 auto; padding-top: 4rem; }
+  .marca {
+    font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--acento); margin: 0 0 0.75rem;
+  }
+  h1 { font-size: 1.5rem; font-weight: 650; margin: 0 0 0.75rem; letter-spacing: -0.015em; }
+  p { margin: 0 0 1.5rem; color: var(--suave); }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { border-top: 1px solid var(--linea); }
+  li:last-child { border-bottom: 1px solid var(--linea); }
+  a.doc {
+    display: block; padding: 1.15rem 0; color: var(--texto);
+    text-decoration: none; font-weight: 600;
+  }
+  a.doc span { display: block; font-weight: 400; font-size: 0.9rem; color: var(--suave); margin-top: 0.15rem; }
+  a.doc:hover { color: var(--acento); }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: var(--suave); }
+  @media (min-width: 40rem) { body { font-size: 18px; } }
+</style>
+</head>
+<body>
+<main>
+  <p class="marca">Nodo</p>
+  <h1>Documentos legales</h1>
+  <p>Nodo es un sistema que permite manejar las ventas, los pagos y la caja de un comercio pequeño conversando por WhatsApp.</p>
+  <ul>
+    <li>
+      <a class="doc" href="privacidad/">Política de Tratamiento de Datos Personales
+        <span>Versión 1.0 &middot; Ley 1581 de 2012</span>
+      </a>
+    </li>
+    <li>
+      <a class="doc" href="terminos/">Términos de Servicio
+        <span>Versión 1.0 &middot; Fase piloto, sin costo</span>
+      </a>
+    </li>
+  </ul>
+  <footer>
+    <p>NODO TECHNOLOGIES S.A.S. &middot; <a href="mailto:soynodo@gmail.com">soynodo@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
